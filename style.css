@@ -196,8 +196,61 @@ form.box.center {
   width: 379px;
   height: 379px;
   padding: 40px;
+  justify-content: center;
 }
 
+/*Contact Sheet*/
+.container{
+  width: 100%;
+  height: 100vh;
+  background: #883E24;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form{
+  background: #883E24;
+  display: flex;
+  flex-direction: column;
+  padding: 2vw 4vw;
+  width: 90%;
+  max-width: 600px;
+  border-radius: 10px;
+}
+
+form h1{
+  color: #191312;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+form input, form textarea{
+  border: 0;
+  margin: 10px 0;
+  padding: 20px;
+  outline: #DFD9AB;
+  background: #491000;
+  font-size: 16px;
+  font-family: "hind", sans-serif;
+  color: #DFD9AB;
+}
+
+form button{
+  padding: 15px;
+  background: #491000;
+  color: #DFD9AB;
+  font-size: 18px;
+  font-family: "hind", sans-serif;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  width: 150px;
+  margin: 20px auto 0;
+  border-radius: 30px;
+}
+
+/*General*/
 h1 {
   color: #DFD9AB;
   font-family: "hind", sans-serif;

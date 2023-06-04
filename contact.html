@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaBeen Homepage</title>
+		<script language="javascript" src="js/script.js" >
+		</script>
+		<script type="text/javascript" src="js/jquery-3.7.0.min.js">
+		</script>
+        <meta name="description" content="Welcome to JavaBeen">
+        <meta name="keywords" content="coffe, Java, order, cafe" >
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <a href="index.html" class="nav-branding">JB.</a>
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link">Log In</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="startorder.html" class="nav-link">Start Order</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="location.html" class="nav-link">Change Location</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">Contact Us</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+            </nav>
+        </header>
+        <div class="container"> 
+            <form onsubmit="sendEmail(); reset(); return false;"> 
+                <h1>Contact Us</h1>
+                <input type="text" id="name" placeholder="Enter Your Name" required>
+                <input type="email" id="email" placeholder="Enter Your Email" required>
+                <input type="text" id="phone" placeholder="Enter Your Phone Number" required>
+                <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+                <button type="submit">Send</button>
+            </form>
+
+
+        </div>
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+        <script>
+            function sendEmail(){
+                Email.send({
+                    Host : "smtp.elasticemail.com",
+                    Username : "codingemailxo@gmail.com",
+                    Password : "SecretGardenSP25.",
+                    To : 'cameron.young2@snnhu.edu',
+                    From : document.getElementById("email").value,
+                    Subject : "New Contact Form Inquiry",
+                    Body : "Name: " + document.getElementById("name").value
+                    + "<br> Email: " + document.getElementById("email").value
+                    + "<br> Phone: " + document.getElementById("phone").value
+                    + "<br> Message: " + document.getElementById("message").value
+                }).then(
+                message => alert("Message Sent Successfully")
+                );
+            }
+        </script>
+        </body>
+        </html>
