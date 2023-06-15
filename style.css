@@ -130,16 +130,21 @@ body {
   color: #883E24;
   background-size: cover;
 }
-
+/*Login Page*/
 .box {
-  width: 900px;
+  width: 100%;
   padding: 40px;
   top: 50%;
-  left: 40%;
+  left: 50%;
+  right: 50%;
   transform: translate(-50%,-60%);
   background-color: #883E24;
-  background-size: 6000px;
+  background-size: 100%;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .box h1 {
@@ -190,13 +195,21 @@ cursor: pointer;
 
 .box input[type="submit"]:hover{
   background: #491000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 form.box.center {
-  width: 379px;
-  height: 379px;
-  padding: 40px;
-  justify-content: center;
+  background: #883E24;
+  position:absolute;
+  width: max-content;
+  align-content: center;
+    left: 50;
+    right: 50;
+    margin-left:auto;
+    margin-right:auto;
 }
 
 /*Contact Sheet*/
