@@ -298,6 +298,7 @@ body {background-color: #491000;}
   margin-right: auto;
   width: 25%;
 }
+
 button {
 	background-color: #491000;
 	color:#DFD9AB;
@@ -306,4 +307,46 @@ button {
     font-style: normal;;
     font-size: 90%;
     text-align: center;	
+}
+
+.menucontainer {
+  background: #491000;
+  position:absolute;
+  width: max-content;
+  align-content: center;
+  display: inline-block;
+    left: 50;
+    right: 50;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.menuheader {
+    display: inline-block;
+    line-height: 100px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "hind", sans-serif;
+    color: #DFD9AB;
+  
+}
+
+.menutitle:hover {
+  color: #DFD9AB;
+  transition: 0.7s ease;
+}
+
+.img2 {
+  position:absolute;
+  width: max-content;
+  align-content: center;
+  display: inline-block;
+  size: 50px; ;
+}
+
+.custom {
+  font-family: "hind", sans-serif;
+  color: #DFD9AB;
+  
+
 }
