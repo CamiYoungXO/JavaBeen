@@ -47,12 +47,17 @@
           <h1> Account </h1>
           <h3> <u>Click an option below to edit:</u></h3>
             <br>
-            <nav class="center">
-                <div class="menucontainer">
-                    <ul class="menuheader">
-                        <li> <a class="basics" href="basics.html">Basics</a></li>
-                        <li> <a class="payment" href="paymentinfo.html">Payment Information</a></li>
-                </div>
-            </ul>
-            </nav>
+            <div class="container">
+                <form onsubmit="save(); reset(); return false;"> 
+                    <h1>Edit Payment Information</h1>
+                    <input type="text" class="name" id="name" placeholder="Edit Your Name" required>
+                    <input type="text" class="email" id="cardnum" placeholder="Edit Your Card Number" required>
+                    <input type="text" class="phone" id="cvv" placeholder="Enter CVV" required>
+                    <input type="text" class="email" id="date" placeholder="MM/YY" required>
+                    <input type="text" class="phone" id="zip" placeholder="Zip Code" required>
+                    
+                    <button type="submit" href="account.html">Save Changes</button>
+                </form>
+    
+             </div>
         </body>
