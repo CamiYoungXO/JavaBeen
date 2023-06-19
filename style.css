@@ -92,6 +92,12 @@ a {
   }
 }
 
+.minilogo {
+  width: 70px;
+  height: auto;
+  position: relative;
+}
+
 /* Baseline Smart Phone Portrait*/
 @media (min-width: 320px){
   h1 { font-size: 14px;}
@@ -351,18 +357,98 @@ button {
 
 }
 
-.menusub[class="menusub"] {
+.menusub [class="menusub"] {
   border: 20px;
-background-color: #491000;
-background-size: 900px;
-display: block;
-margin: 20px auto; 
-text-align: center;
-border: 3px solid #7E0000;
-padding: 14px 10px;
-width: 220px;
-outline: none;
-color: white;
-border-radius: 24px;
-transition: 0.25px;
+  background-color: #491000;
+  background-size: 900px;
+  display: block;
+  margin: 20px auto; 
+  text-align: center;
+  border: 3px solid #7E0000;
+  padding: 14px 10px;
+  width: 220px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
+}
+
+.container [class="name"] {
+  border: 20px;
+  background-color: #491000;
+  background-size: 900px;
+  display: block;
+  margin: 20px auto; 
+  text-align: center;
+  border: 3px solid #DFD9AB;
+  padding: 14px 10px;
+  width: 220px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
+}
+
+.container [class="email"] {
+  border: 20px;
+  background-color: #491000;
+  background-size: 900px;
+  display: block;
+  margin: 20px auto; 
+  text-align: center;
+  border: 3px solid #7E0000;
+  padding: 14px 10px;
+  width: 220px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
+}
+
+.container [class="phone"] {
+  border: 20px;
+  background-color: #491000;
+  background-size: 900px;
+  display: block;
+  margin: 20px auto; 
+  text-align: center;
+  border: 3px solid #DFD9AB;
+  padding: 14px 10px;
+  width: 220px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
+}
+
+.container [class="contactmsg"] {
+  border: 20px;
+  background-color: #491000;
+  background-size: 900px;
+  display: block;
+  margin: 20px auto; 
+  text-align: center;
+  border: 3px solid #7E0000;
+  padding: 14px 10px;
+  width: 420px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
+}
+
+.a [class="locbutton"] {
+  border: 20px;
+  background-color: #491000;
+  background-size: 900px;
+  display: block;
+  margin: 20px auto; 
+  text-align: center;
+  border: 3px solid #7E0000;
+  padding: 14px 10px;
+  width: 420px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25px;
 }

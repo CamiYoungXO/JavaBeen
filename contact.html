@@ -13,7 +13,9 @@
     <body>
         <header>
             <nav class="navbar">
-                <a href="index.html" class="nav-branding">JB.</a>
+                <a href="index.html"  class="nav-branding">
+                    <img src="img/jb-logo1-transparent.png" alt="JavaBeen Logo Home" class="minilogo">
+                </a>
                 <ul class="nav-menu">
                     <li class="nav-item">
                         <a href="login.html" class="nav-link">Login</a>
@@ -45,10 +47,10 @@
         <div class="container"> 
             <form onsubmit="sendEmail(); reset(); return false;"> 
                 <h1>Contact Us</h1>
-                <input type="text" id="name" placeholder="Enter Your Name" required>
-                <input type="email" id="email" placeholder="Enter Your Email" required>
-                <input type="text" id="phone" placeholder="Enter Your Phone Number" required>
-                <textarea id="message" rows="4" placeholder="How can we help you?"></textarea>
+                <input type="text" class="name" id="name" placeholder="Enter Your Name" required>
+                <input type="email" class="email" id="email" placeholder="Enter Your Email" required>
+                <input type="text" class="phone" id="phone" placeholder="Enter Your Phone Number" required>
+                <textarea id="message" class="contactmsg" rows="4" placeholder="How can we help you?"></textarea>
                 <button type="submit">Send</button>
             </form>
 
