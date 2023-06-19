@@ -269,6 +269,8 @@ form button{
   border-radius: 30px;
 }
 
+
+
 /*General*/
 h1 {
   color: #DFD9AB;
@@ -285,8 +287,21 @@ h2 {
     font-style: normal;;
     font-size: 200%;
     text-align: center;
+  
 
 }
+
+h3 {
+  color: #883E24;
+  font-family: "hind", sans-serif;
+  font-weight: 400;
+  font-style: normal;;
+  font-size: 100%;
+  text-align: center;
+
+
+}
+
 p {
   color: #DFD9AB;
   font-family: "hind", sans-serif;
@@ -451,4 +466,8 @@ button {
   color: white;
   border-radius: 24px;
   transition: 0.25px;
+}
+
+.info {
+  text-align: center;
 }

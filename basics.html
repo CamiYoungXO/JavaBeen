@@ -48,10 +48,14 @@
           <h3> <u>Click an option below to edit:</u></h3>
             <br>
             <div class="container">
-                <div class="accountcontainer">
-                    <h2>Basics</h2>
-                        <br>
-                    <h2>Payment Information</h2>
-                </div>
+                <form onsubmit="save(); reset(); return false;"> 
+                    <h1>Basics</h1>
+                    <input type="text" class="name" id="name" placeholder="Edit Your Name" required>
+                    <input type="email" class="email" id="email" placeholder="Edit Your Email" required>
+                    <input type="text" class="phone" id="phone" placeholder="Change Your Phone Number" required>
+                    
+                    <button type="submit" href="account.html">Save Changes</button>
+                </form>
+    
              </div>
         </body>
