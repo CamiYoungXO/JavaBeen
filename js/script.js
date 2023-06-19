@@ -1,15 +1,26 @@
+const menu_btn = document.querySelector('.hamburger')
+
+menu_btn.addEventListener('click', function () {
+  menu_btn.classList.toggle('is-active');
+})
+
+
+
+
+
+/* Old Hamburger JS
 const hamburger = document.querySelector(".hamburger");
 const navMenu = document.querySelector(".nav-menu");
 
 hamburger.addEventListener("click", () => {
-  hamburger.classList.add("active");
-  navMenu.classList.add("active");
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
 })
 
 document.querySelectorAll("nav-link").forEach(n => n.addEventListener("click", () => {
   hamburger.classList.remove("active");
   navMenu.classList.remove("active");
-}))
+})) */
 
 function validate()
 {
