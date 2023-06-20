@@ -75,6 +75,8 @@ transform: rotate(-45deg) translate(-8px, 6px);
 
 .hamburger.is-active:after {
   transform: rotate(-45deg) translate(-9px, -8px);
+  position: relative;
+  z-index: 100;
 }
 
 .hamburger.is-active .bar {
@@ -83,6 +85,7 @@ transform: rotate(-45deg) translate(-8px, 6px);
 
   .mobile-nav {
     position: fixed;
+    z-index: 98;
     top: 0;
     left: 100%;
     width: 100%;
