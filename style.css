@@ -3,7 +3,9 @@
   margin: 0;
   box-sizing: border-box;
 }
-
+html body {
+  padding-top: 65px;
+}
 header {
   background-color: #491000;
 }
@@ -270,6 +272,7 @@ form.box.center {
     right: 50;
     margin-left:auto;
     margin-right:auto;
+    top: auto;
 }
 
 /*Contact Sheet*/
