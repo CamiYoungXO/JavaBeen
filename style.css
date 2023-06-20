@@ -89,6 +89,7 @@ transform: rotate(-45deg) translate(-8px, 6px);
     z-index: 98;
     background-color: #7E0000;
     padding-top: 120px;
+    transition: 0.4s;
   }
 
   .mobile-nav.is-active {
@@ -109,7 +110,7 @@ transform: rotate(-45deg) translate(-8px, 6px);
     }
 
     .mobile-nav a:hover {
-      background-color: #DFD9AB;
+      background-color: #883E24;
     }
 
 @media (max-width: 768px){
