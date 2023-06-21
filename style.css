@@ -159,6 +159,17 @@ transform: rotate(-45deg) translate(-8px, 6px);
   position: relative;
 }
 
+/* Baseline Hamburger*/
+@media (min-width: 768px) {
+  .mobile-nav{
+    display: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
+
 /* Baseline Smart Phone Portrait*/
 @media (min-width: 320px){
   h1 { font-size: 14px;}
